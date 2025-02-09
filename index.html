@@ -1,0 +1,38 @@
+<!DOCTYPE html> 
+<html lang = "en">
+    <script 
+    src = "style.css"
+    chat = "true">
+</script>
+    <head>
+        <meta charset = "UTF-8">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <title>Simple Quiz App</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <div class = "quiz-container">
+            <h1>Knowledge Quiz</h1>
+            <div id = "progress">Question 1 of 8</div>
+            <div id = "question-container">
+                <h2 id = "question">What is the capital of France?</h2>
+                </div>
+
+            <div class = "choice-container" id = "choices">
+                <button class = "choice">Paris</button>
+                <button class = "choice">London</button>
+                <button class = "choice">Dublin</button>
+                <button class = "choice">Madrid</button>
+        </div>
+    </div>
+        <button id = "next-button">Next</button>
+        <div id = "score-container" >
+            <h2 id="scoreHeader" style="display: none;"> <span id ="score"></span> <span id= "total-questions"></span></h2>
+            <button style="display: none;" id= "restart-button">Restart Quiz</button>
+        </div>
+    </div>
+        <script src = "index.js"></script>
+
+    </body>
+</html>
+
