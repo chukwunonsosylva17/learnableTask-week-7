@@ -106,7 +106,7 @@ nextButton.addEventListener("click", () => {
     if (currentQuestionIndex < quizData.length) {
         displayQuestion();
     } else {
-        showResults();
+        showResult();
     }
 });
 
